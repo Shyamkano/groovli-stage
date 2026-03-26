@@ -68,8 +68,8 @@ function App() {
           <div className="hidden md:flex items-center gap-10">
             <a href="#features" className="text-sm font-medium hover:text-[#E8315B] transition-colors">Features</a>
             <a href="#experience" className="text-sm font-medium hover:text-[#E8315B] transition-colors">Experience</a>
-            <a href="#github" className="text-sm font-medium hover:text-[#E8315B] transition-colors">GitHub</a>
-            <button className="bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm hover:scale-105 transition-transform">Get Started</button>
+            <a href="https://github.com/Shyamkano/groovli-app" target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:text-[#E8315B] transition-colors">GitHub</a>
+            <a href="#download" className="bg-white text-black px-6 py-2.5 rounded-full font-bold text-sm hover:scale-105 transition-transform">Get Started</a>
           </div>
 
           <button className="md:hidden" onClick={() => setMobileMenuOpen(true)}>
@@ -98,15 +98,24 @@ function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group relative bg-[#E8315B] h-14 px-8 rounded-full flex items-center justify-center gap-3 overflow-hidden shadow-[0_0_20px_rgba(232,49,91,0.4)] hover:scale-105 transition-all">
+              <a 
+                href="./src/apk%20file/Groovli%20app.apk" 
+                download="Groovli app.apk" 
+                className="group relative bg-[#E8315B] h-14 px-8 rounded-full flex items-center justify-center gap-3 overflow-hidden shadow-[0_0_20px_rgba(232,49,91,0.4)] hover:scale-105 transition-all"
+              >
                 <Download size={20} className="relative z-10" />
                 <span className="font-bold relative z-10">Download APK</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#E8315B] to-[#C0284C] opacity-0 group-hover:opacity-100 transition-opacity" />
-              </button>
-              <button className="h-14 px-8 rounded-full border border-white/20 flex items-center justify-center gap-3 font-bold hover:bg-white/5 transition-all">
+              </a>
+              <a 
+                href="https://github.com/Shyamkano/groovli-app" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="h-14 px-8 rounded-full border border-white/20 flex items-center justify-center gap-3 font-bold hover:bg-white/5 transition-all"
+              >
                 <Github size={20} />
                 <span>View Source</span>
-              </button>
+              </a>
             </div>
 
             <div className="flex items-center gap-8 mt-16">
@@ -246,18 +255,27 @@ function App() {
       </section>
 
       {/* CTA Footer */}
-      <footer className="pt-32 pb-16 px-6 text-center">
+      <footer id="download" className="pt-32 pb-16 px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-5xl md:text-7xl font-black mb-12 tracking-tighter italic">READY TO <span className="text-[#E8315B]">GROOVE?</span></h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-24">
-            <button className="h-16 px-12 rounded-full bg-[#E8315B] text-white font-black flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-[0_0_20px_rgba(232,49,91,0.3)]">
+            <a 
+              href="./src/apk%20file/Groovli%20app.apk"
+              download="Groovli app.apk"
+              className="h-16 px-12 rounded-full bg-[#E8315B] text-white font-black flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-[0_0_20px_rgba(232,49,91,0.3)]"
+            >
               <Download size={22} />
               Grab the APK
-            </button>
-            <button className="h-16 px-12 rounded-full border border-white/20 font-black flex items-center justify-center gap-3 hover:bg-white/5 transition-all">
+            </a>
+            <a 
+              href="https://github.com/Shyamkano/groovli-app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="h-16 px-12 rounded-full border border-white/20 font-black flex items-center justify-center gap-3 hover:bg-white/5 transition-all"
+            >
               <Github size={22} />
               Contribute
-            </button>
+            </a>
           </div>
 
           <div className="border-t border-white/10 pt-16 flex flex-col md:flex-row justify-between items-center gap-8 text-gray-500 text-xs font-bold tracking-widest uppercase">
@@ -291,7 +309,7 @@ function App() {
             <div className="flex flex-col gap-10 text-4xl font-black">
               <a href="#features" onClick={() => setMobileMenuOpen(false)}>Features</a>
               <a href="#experience" onClick={() => setMobileMenuOpen(false)}>Experience</a>
-              <a href="#github" onClick={() => setMobileMenuOpen(false)}>GitHub</a>
+              <a href="https://github.com/Shyamkano/groovli-app" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>GitHub</a>
             </div>
           </motion.div>
         )}
