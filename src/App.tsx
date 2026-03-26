@@ -282,7 +282,7 @@ function App() {
             <div>© 2026 GROOVLI MUSIC PROJECT</div>
             <div className="flex gap-10">
               <a href="#" className="hover:text-[#E8315B]">Twitter</a>
-              <a href="#" className="hover:text-[#E8315B]">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/shyamkano/" target="_blank" rel="noopener noreferrer" className="hover:text-[#E8315B]">LinkedIn</a>
               <a href="https://shyamkano-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#E8315B]">Portfolio</a>
             </div>
           </div>
