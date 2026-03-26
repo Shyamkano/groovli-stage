@@ -19,7 +19,7 @@
 **Groovli** is a state-of-the-art music player built with performance and aesthetics at its core. Designed for the modern era, it strips away the clutter of traditional streaming apps to provide a focused, high-fidelity listening experience.
 
 ### 🔗 [GitHub Repository](https://github.com/Shyamkano/groovli-app)
-### 📱 [Download the latest APK](src/apk%20file/Groovli%20app.apk)
+### 📱 [Download the latest APK](public/Groovli%20app.apk)
 
 ---
 
@@ -74,8 +74,8 @@ To run the project's recruitment/landing page locally:
 
 ### **Install the App**
 To install the Groovli music player on your Android device:
-1. Locate the APK in `src/apk file/`.
-2. Transfer the `Groovli app.apk` to your device or download it directly.
+1. Locate the APK in the **`public/`** folder.
+2. Download `Groovli app.apk` directly or transfer it to your device.
 3. Open the file and follow the installation prompts.
 
 ---

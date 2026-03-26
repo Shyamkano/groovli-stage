@@ -99,7 +99,7 @@ function App() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="./src/apk%20file/Groovli%20app.apk" 
+                href="/Groovli%20app.apk" 
                 download="Groovli app.apk" 
                 className="group relative bg-[#E8315B] h-14 px-8 rounded-full flex items-center justify-center gap-3 overflow-hidden shadow-[0_0_20px_rgba(232,49,91,0.4)] hover:scale-105 transition-all"
               >
@@ -260,7 +260,7 @@ function App() {
           <h2 className="text-5xl md:text-7xl font-black mb-12 tracking-tighter italic">READY TO <span className="text-[#E8315B]">GROOVE?</span></h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-24">
             <a 
-              href="./src/apk%20file/Groovli%20app.apk"
+              href="/Groovli%20app.apk"
               download="Groovli app.apk"
               className="h-16 px-12 rounded-full bg-[#E8315B] text-white font-black flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-[0_0_20px_rgba(232,49,91,0.3)]"
             >
@@ -283,7 +283,7 @@ function App() {
             <div className="flex gap-10">
               <a href="#" className="hover:text-[#E8315B]">Twitter</a>
               <a href="#" className="hover:text-[#E8315B]">LinkedIn</a>
-              <a href="#" className="hover:text-[#E8315B]">Portfolio</a>
+              <a href="https://shyamkano-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#E8315B]">Portfolio</a>
             </div>
           </div>
         </div>
