@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/assets/image1.png" alt="Groovli Banner" width="100%" />
+  <img src="src/assets/groovli_landing.png" alt="Groovli Banner" width="100%" />
 
   # 🍒 GROOVLI
   ### **MUSIC REIMAGINED**
